@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sio_client", "sio_client.vcproj", "{112E5D63-1D7F-4EFE-BB53-C46955532B21}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DB281F25-11D8-4BA8-B908-6969759A73C9} = {DB281F25-11D8-4BA8-B908-6969759A73C9}
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B} = {B84F7231-16CE-41D8-8C08-7B523FF4225B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lib_json", "..\..\jsoncpp\makefiles\vs71\lib_json.vcproj", "{B84F7231-16CE-41D8-8C08-7B523FF4225B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lib_sioclient", "lib_sioclient\lib_sioclient.vcproj", "{DB281F25-11D8-4BA8-B908-6969759A73C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		dummy|Win32 = dummy|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{112E5D63-1D7F-4EFE-BB53-C46955532B21}.Debug|Win32.ActiveCfg = Debug|Win32
+		{112E5D63-1D7F-4EFE-BB53-C46955532B21}.Debug|Win32.Build.0 = Debug|Win32
+		{112E5D63-1D7F-4EFE-BB53-C46955532B21}.dummy|Win32.ActiveCfg = Debug|Win32
+		{112E5D63-1D7F-4EFE-BB53-C46955532B21}.dummy|Win32.Build.0 = Debug|Win32
+		{112E5D63-1D7F-4EFE-BB53-C46955532B21}.Release|Win32.ActiveCfg = Release|Win32
+		{112E5D63-1D7F-4EFE-BB53-C46955532B21}.Release|Win32.Build.0 = Release|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.Debug|Win32.Build.0 = Debug|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.dummy|Win32.ActiveCfg = dummy|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.dummy|Win32.Build.0 = dummy|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.Release|Win32.ActiveCfg = Release|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.Release|Win32.Build.0 = Release|Win32
+		{DB281F25-11D8-4BA8-B908-6969759A73C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB281F25-11D8-4BA8-B908-6969759A73C9}.Debug|Win32.Build.0 = Debug|Win32
+		{DB281F25-11D8-4BA8-B908-6969759A73C9}.dummy|Win32.ActiveCfg = Debug|Win32
+		{DB281F25-11D8-4BA8-B908-6969759A73C9}.dummy|Win32.Build.0 = Debug|Win32
+		{DB281F25-11D8-4BA8-B908-6969759A73C9}.Release|Win32.ActiveCfg = Release|Win32
+		{DB281F25-11D8-4BA8-B908-6969759A73C9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
